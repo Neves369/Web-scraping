@@ -38,7 +38,7 @@ def criar_mapa():
 def obter_informacoes_meteorologicas_ficticias(lat, lon):
     # Informações fictícias de clima
     temperatura = 25.0
-    descricao = "Céu claro"  #
+    descricao = "Céu claro"
     umidade = 60
     return f"Temperatura: {temperatura}°C<br>Condição: {descricao}<br>Umidade: {umidade}%"
 
